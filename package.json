@@ -1,0 +1,102 @@
+{
+  "name": "etcespvue-js-crud",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --3000",
+    "build": "vue-cli-service build --dest build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^38.1.0",
+    "@ckeditor/ckeditor5-autoformat": "^38.1.0",
+    "@ckeditor/ckeditor5-basic-styles": "^38.1.0",
+    "@ckeditor/ckeditor5-block-quote": "^38.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^38.1.0",
+    "@ckeditor/ckeditor5-ckbox": "^38.1.0",
+    "@ckeditor/ckeditor5-cloud-services": "^38.1.0",
+    "@ckeditor/ckeditor5-code-block": "^38.1.0",
+    "@ckeditor/ckeditor5-dev-translations": "^38.0.1",
+    "@ckeditor/ckeditor5-dev-utils": "^38.0.5",
+    "@ckeditor/ckeditor5-document-outline": "^38.1.0",
+    "@ckeditor/ckeditor5-editor-classic": "^38.0.1",
+    "@ckeditor/ckeditor5-essentials": "^38.0.1",
+    "@ckeditor/ckeditor5-export-pdf": "^38.1.0",
+    "@ckeditor/ckeditor5-export-word": "^38.1.0",
+    "@ckeditor/ckeditor5-find-and-replace": "^38.1.0",
+    "@ckeditor/ckeditor5-font": "^38.1.0",
+    "@ckeditor/ckeditor5-format-painter": "^38.1.0",
+    "@ckeditor/ckeditor5-heading": "^38.1.0",
+    "@ckeditor/ckeditor5-highlight": "^38.1.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^38.1.0",
+    "@ckeditor/ckeditor5-html-embed": "^38.1.0",
+    "@ckeditor/ckeditor5-image": "^38.1.0",
+    "@ckeditor/ckeditor5-indent": "^38.1.0",
+    "@ckeditor/ckeditor5-language": "^38.1.0",
+    "@ckeditor/ckeditor5-link": "^38.0.1",
+    "@ckeditor/ckeditor5-list": "^38.1.0",
+    "@ckeditor/ckeditor5-media-embed": "^38.1.0",
+    "@ckeditor/ckeditor5-mention": "^38.1.0",
+    "@ckeditor/ckeditor5-page-break": "^38.1.0",
+    "@ckeditor/ckeditor5-paragraph": "^38.0.1",
+    "@ckeditor/ckeditor5-paste-from-office": "^38.1.0",
+    "@ckeditor/ckeditor5-remove-format": "^38.1.0",
+    "@ckeditor/ckeditor5-slash-command": "^38.1.0",
+    "@ckeditor/ckeditor5-source-editing": "^38.1.0",
+    "@ckeditor/ckeditor5-special-characters": "^38.1.0",
+    "@ckeditor/ckeditor5-table": "^38.1.0",
+    "@ckeditor/ckeditor5-template": "^38.1.0",
+    "@ckeditor/ckeditor5-theme-lark": "^38.1.0",
+    "@ckeditor/ckeditor5-typing": "^38.1.0",
+    "@ckeditor/ckeditor5-vue": "^5.1.0",
+    "@ckeditor/ckeditor5-vue2": "^3.0.1",
+    "@ckeditor/ckeditor5-word-count": "^38.1.0",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "apollo-boost": "^0.4.9",
+    "axios": "^1.2.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.16.0",
+    "core-js": "^3.4.3",
+    "cors": "^2.8.5",
+    "graphql": "^15.8.0",
+    "json-server": "^0.17.3",
+    "multiple-select": "^1.5.2",
+    "postcss-loader": "^4.3.0",
+    "raw-loader": "^4.0.2",
+    "vue": "^2.7.14",
+    "vue-highlight.js": "^3.1.0",
+    "vue-jquery": "^1.0.6",
+    "vue-router": "^3.1.3",
+    "vue-the-mask": "^0.11.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

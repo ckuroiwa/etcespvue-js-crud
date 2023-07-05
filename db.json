@@ -1,0 +1,16 @@
+{
+		"tipo_parte_processo":
+		[
+			{
+				"codtipoparte": 61,
+				"descricao": "Representado(a)",
+				"identificador_parte": "R"
+			},
+			{
+				"codtipoparte": 62,
+				"descricao": "Representante",
+				"identificador_parte": "A"
+			}
+		]
+	
+}
